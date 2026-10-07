@@ -102,7 +102,7 @@ a {
     background-image:
         linear-gradient(rgba(0, 0, 0, 0.45),
             rgba(0, 0, 0, 0.45)),
-        url("../view.jpg");
+        url("view.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -115,7 +115,7 @@ a {
     min-height: 420px;
     background-image:
         linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url("../room3.jpg");
+        url("room3.jpg");
     /* Rooms page image */
 }
 
@@ -123,7 +123,7 @@ a {
     min-height: 550px;
     background-image:
         linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url("../view4.jpg");
+        url("view4.jpg");
 }
 
 .hero-content {
@@ -726,7 +726,7 @@ tbody tr:hover {
     min-height: 550px;
     background-image:
         linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url("../restaurant.webp");
+        url("restaurant.webp");
 }
 
 /* intro: dark band with 3 short points */
@@ -1201,7 +1201,7 @@ tbody tr:hover {
     min-height: 380px;
     background-image:
         linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url("../swimmingpool.jpg");
+        url("swimmingpool.jpg");
 }
 
 /*  Form + stay information (2 columns) */
