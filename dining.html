@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dining | Marina Bay Sands </title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- NAVIGATION  -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">MARINA BAY SANDS</div>
+            <ul class="nav-links">
+                <li><a href="Intex.html">Home</a></li>
+                <li><a href="rooms.html">Rooms & Suites</a></li>
+                <li><a href="dining.html" class="active">Dining</a></li>
+                <li><a href="experiences.html">Experiences</a></li>
+                <li><a href="stayplan.html">Plan Your Stay</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero dining-hero">
+        <div class="hero-content">
+            <p class="hero-subtitle">TASTE OF SINGAPORE</p>
+            <h1>Dining at Marina Bay Sands</h1>
+            <p class="hero-description">
+                From casual local favourites to elegant fine dining, there is
+                something delicious for every guest.
+            </p>
+        </div>
+    </section>
+
+    <!-- INTRODUCTION -->
+    <section class="dining-intro">
+        <div class="section-heading">
+            <p class="section-label">A WORLD OF FLAVOURS</p>
+            <h2>Something for Every Taste</h2>
+            <p>
+                Marina Bay Sands offers a wide range of dining experiences, from
+                relaxed meals with the family to special celebration dinners with
+                views of the city.
+            </p>
+        </div>
+
+        <div class="intro-points">
+            <div>
+                <h3>Many Cuisines</h3>
+                <p>Enjoy Asian and Western dishes made by talented chefs.</p>
+            </div>
+            <div>
+                <h3>Every Style</h3>
+                <p>Choose between casual cafés and elegant fine dining rooms.</p>
+            </div>
+            <div>
+                <h3>Great Views</h3>
+                <p>Eat with a view of the pool, the bay or the skyline.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- RESTAURANTS -->
+    <section class="restaurants-section">
+        <div class="section-heading">
+            <p class="section-label">OUR RESTAURANTS</p>
+            <h2>Find Your Table</h2>
+        </div>
+
+        <!-- filter buttons -->
+        <div class="filter-bar">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="asian">Asian</button>
+            <button class="filter-btn" data-filter="western">Western</button>
+            <button class="filter-btn" data-filter="fine">Fine Dining</button>
+            <button class="filter-btn" data-filter="casual">Casual Dining</button>
+        </div>
+
+        <!-- restaurant cards -->
+        <div class="restaurant-grid">
+
+            <article class="restaurant-card" data-category="western fine">
+                <div class="restaurant-image">
+                    <img src="SkylineGrill.jpg" alt="Rooftop dining area with city views">
+                </div>
+                <div class="restaurant-info">
+                    <h3>Skyline Grill</h3>
+                    <p class="cuisine">Western &bull; Fine Dining</p>
+                    <p>Premium steaks and fresh seafood served with a view of the city skyline.</p>
+                    <p class="meta"><strong>Location:</strong> Tower 2, Level 55 (sample)</p>
+                    <p class="meta"><strong>Hours:</strong> 6:00 pm - 11:00 pm (sample)</p>
+                    <button class="read-more-btn details-btn btn-space">View Details</button>
+                    <div class="dining-details">
+                        A smart-casual restaurant, ideal for anniversaries and special
+                        dinners. Reservations are recommended.
+                    </div>
+                </div>
+            </article>
+
+            <article class="restaurant-card" data-category="asian fine">
+                <div class="restaurant-image">
+                    <img src="SakuraRoom.jpg" alt="Elegant restaurant overlooking Marina Bay">
+                </div>
+                <div class="restaurant-info">
+                    <h3>Sakura Room</h3>
+                    <p class="cuisine">Japanese &bull; Fine Dining</p>
+                    <p>A calm, elegant restaurant serving sushi, sashimi and seasonal set menus.</p>
+                    <p class="meta"><strong>Location:</strong> Tower 1, Level 2 (sample)</p>
+                    <p class="meta"><strong>Hours:</strong> 6:30 pm - 10:30 pm (sample)</p>
+                    <button class="read-more-btn details-btn btn-space">View Details</button>
+                    <div class="dining-details">
+                        Guests can choose a multi-course tasting menu or order
+                        individual dishes. Best for couples and small groups.
+                    </div>
+                </div>
+            </article>
+
+            <article class="restaurant-card" data-category="asian casual">
+                <div class="restaurant-image">
+                    <img src="HawkerLane .jpg" alt="Casual dining hall with local dishes">
+                </div>
+                <div class="restaurant-info">
+                    <h3>Hawker Lane</h3>
+                    <p class="cuisine">Asian &bull; Casual Dining</p>
+                    <p>A food court style hall with local favourites such as noodles, rice dishes and satay.</p>
+                    <p class="meta"><strong>Location:</strong> Shopping level, B2 (sample)</p>
+                    <p class="meta"><strong>Hours:</strong> 10:00 am - 10:00 pm (sample)</p>
+                    <button class="read-more-btn details-btn btn-space">View Details</button>
+                    <div class="dining-details">
+                        A relaxed place with many stalls to choose from. Great for
+                        families and guests on a budget. No reservation needed.
+                    </div>
+                </div>
+            </article>
+
+            
+            <article class="restaurant-card" data-category="western casual">
+                <div class="restaurant-image">
+                    <img src="poolsidecafe.jpg" alt="Poolside cafe area">
+                </div>
+                <div class="restaurant-info">
+                    <h3>Poolside Cafe</h3>
+                    <p class="cuisine">Western &bull; Casual Dining</p>
+                    <p>Burgers, salads, sandwiches and cold drinks to enjoy after a swim.</p>
+                    <p class="meta"><strong>Location:</strong> Tower 2, Pool Deck (sample)</p>
+                    <p class="meta"><strong>Hours:</strong> 11:00 am - 8:00 pm (sample)</p>
+                    <button class="read-more-btn details-btn btn-space">View Details</button>
+                    <div class="dining-details">
+                        A laid-back cafe with outdoor seating. Light meals and
+                        snacks are served all day.
+                    </div>
+                </div>
+            </article>
+
+        </div>
+
+    </section>
+
+    <!-- COMPARISON TABLE -->
+    <section class="compare-section">
+        <div class="section-heading">
+            <p class="section-label">AT A GLANCE</p>
+            <h2>Compare Our Restaurants</h2>
+        </div>
+
+        <div class="table-wrap">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Restaurant</th>
+                        <th>Cuisine</th>
+                        <th>Dining Style</th>
+                        <th>Location</th>
+                        <th>Opening Hours</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Skyline Grill</td>
+                        <td>Western</td>
+                        <td>Fine Dining</td>
+                        <td>Tower 2, Level 55</td>
+                        <td>6:00 pm - 11:00 pm</td>
+                    </tr>
+                    <tr>
+                        <td>Sakura Room</td>
+                        <td>Japanese</td>
+                        <td>Fine Dining</td>
+                        <td>Tower 1, Level 2</td>
+                        <td>6:30 pm - 10:30 pm</td>
+                    </tr>
+                    <tr>
+                        <td>Hawker Lane</td>
+                        <td>Asian</td>
+                        <td>Casual Dining</td>
+                        <td>Shopping level, B2</td>
+                        <td>10:00 am - 10:00 pm</td>
+                    </tr>
+                    <tr>
+                        <td>Poolside Cafe</td>
+                        <td>Western</td>
+                        <td>Casual Dining</td>
+                        <td>Tower 2, Pool Deck</td>
+                        <td>11:00 am - 8:00 pm</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- RESERVATION / CTA -->
+    <section class="cta-section">
+        <h2>Ready to Dine With Us?</h2>
+        <p>
+            Plan your visit and reserve a table for your next meal at
+            Marina Bay Sands.
+        </p>
+        <a href="stayplan.html" class="btn dark-btn">Make a Reservation</a>
+    </section>
+
+    <!-- FOOTER  -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>MARINA BAY SANDS</h3>
+               <a href="https://maps.app.goo.gl/JU68rL5WRYFoYei26">10 Bayfront Avenue, Singapore 018956</a>
+            </div>
+            <div class="footer-column">
+                <h3>EXPLORE</h3>
+                <a href="Intex.html">Home</a>
+                <a href="rooms.html">Rooms & Suites</a>
+                <a href="dining.html">Dining</a>
+            </div>
+            <div class="footer-column">
+                <h3>MORE</h3>
+                <a href="experiences.html">Experiences</a>
+                <a href="stayplan.html">Plan Your Stay</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan Your Stay | Marina Bay Sands (Student Project)</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">MARINA BAY SANDS</div>
+            <ul class="nav-links">
+                <li><a href="Intex.html">Home</a></li>
+                <li><a href="rooms.html">Rooms & Suites</a></li>
+                <li><a href="dining.html">Dining</a></li>
+                <li><a href="experiences.html">Experiences</a></li>
+                <li><a href="stayplan.html" class="active">Plan Your Stay</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero booking-hero">
+        <div class="hero-content">
+            <p class="hero-subtitle">BOOK YOUR VISIT</p>
+            <h1>Plan Your Stay</h1>
+            <p class="hero-description">
+                Tell us when you would like to visit and we will help you
+                prepare for a relaxing stay in Singapore.
+            </p>
+        </div>
+    </section>
+
+    <!-- BOOKING FORM + STAY INFORMATION -->
+    <section class="booking-section">
+
+        <article class="booking-form-box">
+            <h2>Request Your Stay</h2>
+            <p class="form-intro">Fill in the form below. Fields marked * are required.</p>
+
+            <form id="bookingForm" novalidate>
+
+                <div class="form-group">
+                    <label for="fullname">Full Name *</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="e.g. Alvin" required>
+                    <p class="error" id="fullnameError"></p>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" placeholder="name@example.com" required>
+                        <p class="error" id="emailError"></p>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number *</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+65 1234 5678" required>
+                        <p class="error" id="phoneError"></p>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="checkin">Check-in Date *</label>
+                        <input type="date" id="checkin" name="checkin" required>
+                        <p class="error" id="checkinError"></p>
+                    </div>
+                    <div class="form-group">
+                        <label for="checkout">Check-out Date *</label>
+                        <input type="date" id="checkout" name="checkout" required>
+                        <p class="error" id="checkoutError"></p>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="guests">Number of Guests *</label>
+                        <select id="guests" name="guests" required>
+                            <option value="">Select guests</option>
+                            <option value="1">1 Guest</option>
+                            <option value="2">2 Guests</option>
+                            <option value="3">3 Guests</option>
+                            <option value="4">4 Guests</option>
+                        </select>
+                        <p class="error" id="guestsError"></p>
+                    </div>
+                    <div class="form-group">
+                        <label for="roomtype">Room Type *</label>
+                        <select id="roomtype" name="roomtype" required>
+                            <option value="">Select a room</option>
+                            <option value="deluxe">Deluxe Room</option>
+                            <option value="premier">Premier Room</option>
+                            <option value="club">Club Room</option>
+                            <option value="suite">Sands Suite</option>
+                        </select>
+                        <p class="error" id="roomtypeError"></p>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="requests">Special Requests (optional)</label>
+                    <textarea id="requests" name="requests" rows="4"
+                        placeholder="e.g. quiet room, extra pillows, birthday celebration"></textarea>
+                </div>
+
+
+
+
+                <div class="form-buttons">
+                    <button type="submit" class="submit-btn">Booking</button>
+                    <button type="reset" class="reset-btn">Reset</button>
+                </div>
+
+                <p class="success-message" id="successMessage" role="status"></p>
+            </form>
+
+        </article>
+
+        <aside class="stay-info">
+            <h2>Stay Information</h2>
+
+            <div class="info-item">
+                <h3>CHECK-IN</h3>
+                <p>From 3:00 pm</p>
+            </div>
+            <div class="info-item">
+                <h3>CHECK-OUT</h3>
+                <p>Before 11:00 am</p>
+            </div>
+            <div class="info-item">
+                <h3>GUEST SERVICES</h3>
+                <p>Front desk and concierge to help with your stay</p>
+            </div>
+            <div class="info-item">
+                <h3>LOCATION</h3>
+                <a href="https://maps.app.goo.gl/JU68rL5WRYFoYei26">10 Bayfront Avenue, Singapore 018956</a>
+
+            </div>
+            <div class="footer-column">
+                <h3>CONTACT</h3>
+                <br>
+                <a href="tel:+6512345678">+65 12345678</a>
+
+                <a href="mailto:stay@example.com">Email: stay@example.com </a>
+            </div>
+
+
+        </aside>
+
+    </section>
+
+    <!-- WHAT TO EXPECT -->
+    <section class="stay-expect">
+        <div class="expect-container">
+            <div class="expect-text">
+                <p class="section-label">YOUR STAY</p>
+                <h2>What to Expect</h2>
+                <p>
+                    From the moment you arrive, our aim is to make your visit
+                    comfortable and easy, whether you are here for business,
+                    a holiday or a special celebration.
+                </p>
+            </div>
+
+            <ul class="expect-list">
+                <li><strong>Easy arrival:</strong> a friendly welcome and simple check-in.</li>
+                <li><strong>Comfortable rooms:</strong> soft bedding, bathrooms and city views.</li>
+                <li><strong>Helpful service:</strong> staff ready to answer your questions.</li>
+                <li><strong>Plenty to do:</strong> dining, shopping and experiences close by.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>MARINA BAY SANDS</h3>
+                <a href="https://maps.app.goo.gl/JU68rL5WRYFoYei26">10 Bayfront Avenue, Singapore 018956</a>
+
+            </div>
+            <div class="footer-column">
+                <h3>EXPLORE</h3>
+                <a href="Intex.html">Home</a>
+                <a href="rooms.html">Rooms & Suites</a>
+                <a href="dining.html">Dining</a>
+            </div>
+            <div class="footer-column">
+                <h3>MORE</h3>
+                <a href="rooms.html">Rooms</a>
+                <a href="booking.html">Plan Your Stay</a>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
